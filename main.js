@@ -25,7 +25,7 @@ class Motocicletas extends Vehiculos {
         this.cilindrada = cilindrada;
     }
     infoVehiculo(){
-        return  `Marca: ${this.marca} // Modelo: ${this.modelo} // Puertas: ${this.cilindrada} // Precio: $${this.precio} `;
+        return  `Marca: ${this.marca} // Modelo: ${this.modelo} // Cilindrada: ${this.cilindrada} // Precio: $${this.precio} `;
     }
 }
 
